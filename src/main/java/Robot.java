@@ -1,5 +1,7 @@
 public class Robot extends Race
 {
+
+	
 	@Override
 	public int getINT()
 	{

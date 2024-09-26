@@ -26,6 +26,17 @@ public class Race implements HeroInterface
 		// TODO Auto-generated method stub
 		return null;
 	}
+	Job job;
+	
+	private Race(Job job)
+	{
+		this.job = job;
+	}
+	Race race;
+	private Race(Race race)
+	{
+		this.race = race;
+	}
 }
 
 
